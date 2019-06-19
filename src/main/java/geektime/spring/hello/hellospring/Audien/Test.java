@@ -17,10 +17,14 @@ public class Test {
     public static void main(String[] args) {
         newOne();
         newSecond();
-        say("","","");
-        say("","","");
+        newThree();
 
 
+    }
+
+    private static void newThree() {
+        say("", "", "");
+        say("", "", "");
     }
 
     private static void newSecond() {
